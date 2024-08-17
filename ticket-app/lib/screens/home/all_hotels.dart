@@ -25,7 +25,7 @@ class AllHotels extends StatelessWidget {
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 1,
                   crossAxisSpacing: 16.0,
-                  mainAxisSpacing: 16.0,
+                  mainAxisSpacing: 17.0,
                   childAspectRatio: 1),
               itemCount: hotelList.length,
               itemBuilder: (context, index) {
